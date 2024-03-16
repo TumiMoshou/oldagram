@@ -49,4 +49,30 @@ h2 {
     font-weight: 300;
 }
 
+/* main post section */
+
+.post-image {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.post-actions {
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+.comment-icon {
+    margin-left: 40px;
+}
+
+.message-icon {
+    margin-left: 40px;
+}
+
+.likes, .caption {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
 
