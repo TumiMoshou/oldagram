@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.user-avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+}
+
+.separator {
+    border-top: 2px solid lightgray;
+}
