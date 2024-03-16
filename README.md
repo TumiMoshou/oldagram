@@ -1,11 +1,18 @@
-# co2274297820a9405442e3a2a
+# Oldagram
 
-Quick start:
+This project, done as part of the Scrimba Frontend Career Path, is a spin on Instagram called Oldagram, where mock Instagram posts by famous artists are displayed. The post features an image and user information.
+
+## Quick Start
 
 ```
 $ npm install
 $ npm start
 ````
+
+## Website Link
+
+[Netlify Website](https://loquacious-haupia-45cf38.netlify.app/)
+
 
 Head over to https://vitejs.dev/ to learn more about using vite
 ## About Scrimba
