@@ -5,26 +5,32 @@
         <title>Oldagram - Vincent van Gogh's Post</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class="header-content">
             <img src="images/logo.png" alt="Oldagram Logo">
             <img src="images/avatar-courbet.jpg" alt="User Avatar" class="user-avatar">
         </header>
         <main>
+            <hr class="separator">
             <section class="profile-info">
-                <img src="images/avatar-vangogh.jpg" alt="Vincent van Gogh Avatar">
-                <h1>Vincent van Gogh</h1>
-                <h2>Zudert, Netherlands</h2>
+                <img src="images/avatar-vangogh.jpg" alt="Vincent van Gogh Avatar" class="profile-avatar">
+                <div class="profile-text">
+                    <h1>Vincent van Gogh</h1>
+                    <h2>Zudert, Netherlands</h2>
+                </div>
             </section>
             <article class="post">
-                <img src="images/post-vangogh.jpg" alt="Vincent van Gogh Post">
+                <img src="images/post-vangogh.jpg" alt="Vincent van Gogh Post" class="post-image">
                 <div class="post-actions">
-                    <img src="images/icon-heart.png" alt="Like">
-                    <img src="images/icon-comment.png" alt="Comment">
-                    <img src="images/icon-dm.png" alt="Direct Message"> 
+                    <img src="images/icon-heart.png" alt="Like" class="heart-icon">
+                    <img src="images/icon-comment.png" alt="Comment" class="comment-icon">
+                    <img src="images/icon-dm.png" alt="Direct Message" class="message-icon"> 
                 </div>
-                <p><strong>21,492 likes</strong></p>
+                <p class="likes"><strong>21,492 likes</strong></p>
                 <p class="caption">
                     <strong>vincey1853 </strong>
                     <span>just took a few mushrooms lol</span>
